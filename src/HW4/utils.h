@@ -30,7 +30,7 @@ void checkResultsExact(const T* const ref, const T* const gpu, size_t numElem) {
       //with other types
       std::cerr << "Reference: " << std::setprecision(17) << +ref[i] <<
                  "\nGPU      : " << +gpu[i] << std::endl;
-      exit(1);
+      
     }
   }
 }
